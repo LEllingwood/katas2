@@ -35,7 +35,6 @@ console.log(result)
 function power(c,d) {
     
     let result=1;
-    // debugger;
     for (let i = 0; i < d; i++){
        result = multiply(result,c)
     }  
@@ -55,7 +54,7 @@ function factorial(e) {
     
     let result=1;
     debugger;
-    for (let i = 1; i < e; i++)
+    for (let i = 1; i <= e; i++)
      {
        result = multiply(result,i)
     }  
@@ -63,7 +62,7 @@ function factorial(e) {
     return result; 
    }
  
-console.log(factorial(5));
+console.log(factorial(4));
 
 // // // fibonacci
 // Write a function named "fibonacci" that takes an argument n and returns the nth, Fibonacci number (Links to an external site.)Links to an external site. (click me!).
@@ -85,4 +84,3 @@ function fibonacci (n) {
 
 }
 console.log(fibonacci(8)); 
-// 
