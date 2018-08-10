@@ -53,7 +53,6 @@ console.log(power(2,8))
 function factorial(e) {
     
     let result=1;
-    debugger;
     for (let i = 1; i <= e; i++)
      {
        result = multiply(result,i)
