@@ -82,4 +82,4 @@ function fibonacci (n) {
     return result
 
 }
-console.log(fibonacci(8)); 
+console.log(fibonacci(7)); 
